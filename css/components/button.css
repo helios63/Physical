@@ -1,0 +1,16 @@
+.button {
+    display: block;
+    width: auto;
+    background-color: var(--third-color);
+    padding: 1em 2em;
+    border-radius: 25px;
+    color: var(--second-color);
+    font-weight: 600;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 1em;
+    text-align: center;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

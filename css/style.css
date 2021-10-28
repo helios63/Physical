@@ -1,0 +1,91 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import 'components/banner.css';
+@import 'components/button.css';
+@import 'components/card.css';
+
+@keyframes star {
+  0% { transform: rotate(0) }
+  100% {transform: rotate(360deg)}
+}
+
+:root{
+  --main-color : #00bbf9;
+  --second-color : #f15bb5;
+  --third-color : #fee440;
+}
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: var(--main-color);
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  margin: 0;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #FFF;
+  font-size: 16px;
+}
+
+/* Custom design below! */
+.container {
+  width:850px;
+  margin: 0 auto;
+}
+
+.star {
+  position: absolute;
+  top: -80px;
+  right: 40px;
+  animation: 15s linear star;
+  animation-iteration-count: infinite;
+
+}
+
+.title {
+  position: absolute;
+  top: 6px;
+  right: 96px;
+  color: var(--third-color);
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
+}
+
+.howitworks {
+  transform: translateY(-20%);
+}
+
+.socials{
+  text-align: center;
+}
+
+footer {
+  background-color: var(--second-color);
+  padding: 3em 1em;
+}
+
+footer a {
+  font-size: 30px;
+  color: var(--third-color);
+}

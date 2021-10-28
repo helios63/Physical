@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  padding:1em 2.5em;
+}
+
+.card h3 {
+  color: var(--second-color);
+}
+
+.card p {
+  color: var(--main-color);
+  max-width: 150px;
+}
+
+.card img {
+  object-fit: contain;
+  width: 100%;
+  height: 100px;
+}
+
+.card h3 {
+  margin: 1.5em 0;
+}
